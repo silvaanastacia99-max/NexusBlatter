@@ -45,22 +45,7 @@ h1{color:#65eaff;font-size:27px;margin:5px}
 <body>
   <h1>NEXUSBLATTER 3D</h1>
   <p>ANIME BATTLE ROYALE</p>
-    <p id="descricao">Escolha seu herói e entre na batalha!</p>
-  <button id="jogar">ENTRAR NO JOGO</button>
-</style>
-  <div id="listaHerois">
-   <button class="heroi selecionado" data-heroi="Naruto">🍥 NARUTO<small>Rasengan</small></button>
-   <button class="heroi" data-heroi="Sasuke">⚡ SASUKE<small>Chidori</small></button>
-   <button class="heroi" data-heroi="Nami">🌊 NAMI<small>Tempestade</small></button>
-   <button class="heroi" data-heroi="Zoro">⚔️ ZORO<small>Corte triplo</small></button>
-   <button class="heroi" data-heroi="Luffy">👒 LUFFY<small>Golpe elástico</small></button>
-   <button class="heroi" data-heroi="Goku">🔥 GOKU<small>Energia</small></button>
-   <button class="heroi" data-heroi="Vegeta">💥 VEGETA<small>Explosão</small></button>
-   <button class="heroi" data-heroi="Tanjiro">☀️ TANJIRO<small>Respiração solar</small></button>
-   <button class="heroi" data-heroi="Nezuko">🌸 NEZUKO<small>Poder demoníaco</small></button>
-   <button class="heroi" data-heroi="Ichigo">🗡️ ICHIGO<small>Getsuga</small></button>
- </style>
-  <div class="painel">❤️ VIDA
+      <div class="painel">❤️ VIDA
    <div id="barraFundo"><div id="barraVida"></div></div>
   </div>
   <div class="painel" id="pontos">Pontos: 0</div>
@@ -76,7 +61,23 @@ h1{color:#65eaff;font-size:27px;margin:5px}
  <div class="botoes">
   <button class="btn" id="btnPulo">PULAR</b
 <div id="mensagem">
- <div id="caixa">
+ <div id="caixa"><div id="listaHerois">
+   <button class="heroi selecionado" data-heroi="Naruto">🍥 NARUTO<small>Rasengan</small></button>
+   <button class="heroi" data-heroi="Sasuke">⚡ SASUKE<small>Chidori</small></button>
+   <button class="heroi" data-heroi="Nami">🌊 NAMI<small>Tempestade</small></button>
+   <button class="heroi" data-heroi="Zoro">⚔️ ZORO<small>Corte triplo</small></button>
+   <button class="heroi" data-heroi="Luffy">👒 LUFFY<small>Golpe elástico</small></button>
+   <button class="heroi" data-heroi="Goku">🔥 GOKU<small>Energia</small></button>
+   <button class="heroi" data-heroi="Vegeta">💥 VEGETA<small>Explosão</small></button>
+   <button class="heroi" data-heroi="Tanjiro">☀️ TANJIRO<small>Respiração solar</small></button>
+   <button class="heroi" data-heroi="Nezuko">🌸 NEZUKO<small>Poder demoníaco</small></button>
+   <button class="heroi" data-heroi="Ichigo">🗡️ ICHIGO<small>Getsuga</small></button>
+ </style>  <p>ANIME BATTLE ROYALE</p>
+    <p id="descricao">Escolha seu herói e entre na batalha!</p>
+  <button id="jogar">ENTRAR NO JOGO</button>
+ </style>  <p id="descricao">Escolha seu herói e entre na batalha!</p>
+  <button id="jogar">ENTRAR NO JOGO</button>
+ </style>
 <script type="module">
 import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js";
 const canvas=document.createElement("canvas");
